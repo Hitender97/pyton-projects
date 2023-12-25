@@ -6,6 +6,16 @@ for i in range (1,n+1):
         print(j,end="")
     print()
 
+p=int(input("Enter the number of rows to print: "))
+
+for i in range (1,p+1):
+    print(" " * (n-i), end="")
+
+    for j in range (1, i+1):
+        print(j,end="")
+    print()
+
+
 # this will print 90o triangle in capital alphabet format
 m=int(input("Enter the value of m: "))
 
