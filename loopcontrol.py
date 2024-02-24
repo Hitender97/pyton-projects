@@ -1,3 +1,8 @@
+#loop control statements = change a loops execution from its normal sequence
+#break = used to terminate the loops entirely
+#continue = skips to the next iteration of the loops
+#pass = does nothing, acts as a placeholder
+
 while True:
     name = input("Enter your name:")
     if name != "":
